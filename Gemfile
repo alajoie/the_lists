@@ -19,19 +19,19 @@ end
 gem 'jquery-rails'
 gem 'devise'
 gem 'cancan'
-gem 'linecache19', '~> 0.5.12'
+#gem 'linecache19', '~> 0.5.12'
 
 # To use ActiveModel has_secure_password
  gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the web server
- gem 'unicorn'
+#gem 'unicorn'
 
 # Deploy with Capistrano
- gem 'capistrano'
+#gem 'capistrano'
 
 # To use debugger
- gem 'ruby-debug19', :require => 'ruby-debug'
+#gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.5'
@@ -41,4 +41,5 @@ group :test do
   gem 'cucumber-rails'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'rake'
 end
