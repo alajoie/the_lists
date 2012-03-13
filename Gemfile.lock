@@ -206,6 +206,7 @@ DEPENDENCIES
   database_cleaner
   devise
   jquery-rails
+  linecache19 (~> 0.5.12)
   rails (= 3.1.1)
   rspec-rails (~> 2.5)
   ruby-debug19

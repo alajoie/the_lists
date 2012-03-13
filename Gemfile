@@ -19,6 +19,7 @@ end
 gem 'jquery-rails'
 gem 'devise'
 gem 'cancan'
+gem 'linecache19', '~> 0.5.12'
 
 # To use ActiveModel has_secure_password
  gem 'bcrypt-ruby', '~> 3.0.0'
